@@ -176,9 +176,16 @@ text-align: center;
 
 }
 .gallery__img{
-height: 800px;
-width: 800px;
+height: 200px;
+width: 200px;
 }
+@media(min-width: 500px){
+  .gallery__img{
+    height: 800px;
+    width: 800px;
+  }
+}
+
 @media(min-width: 500px) {
   iframe {
     width: 560px;
