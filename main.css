@@ -159,6 +159,7 @@ text-align: left;
     padding: 60px;
     padding-top: 0;
   }
+}
 
 .gallery__item:hover {
 -webkit-transform:scale(1.1);transform:scale(1.1);
@@ -177,4 +178,15 @@ text-align: center;
 .gallery__img{
 height: 800px;
 width: 800px;
+}
+@media(min-width: 500px) {
+  iframe {
+    width: 560px;
+    height: 315px;
+  }
+}
+
+.iframe{
+  width: 200px; 
+  height: 100px;
 }
