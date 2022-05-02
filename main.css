@@ -206,4 +206,10 @@ width: 200px;
   background-position: center;
   max-width:1550px;
   }
-  
+  .contact__text{
+    text-align: center;  
+    font-size: 11px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    
+    }
