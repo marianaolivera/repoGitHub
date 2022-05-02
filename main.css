@@ -201,3 +201,9 @@ width: 200px;
   width: 200px; 
   height: 100px;
 }
+.seccion_contacto{
+  background-image:url(acuarela-fondo.jpg);
+  background-position: center;
+  max-width:1550px;
+  }
+  
