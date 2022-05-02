@@ -14,6 +14,9 @@
   border: 3px solid rgb(178, 216, 211);
   text-decoration: none;
 }
+#navegador :hover{
+  -webkit-transform:scale(1.2);transform:scale(1.2);
+}
 
 @media(min-width: 500px){
   #navegador li a {
@@ -23,6 +26,7 @@
 #navegador li a:hover {
  color: aquamarine;
 }
+
 @media screen and (min-width: 500px){
   #navegador ul{
     list-style-type: none;
