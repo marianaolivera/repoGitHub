@@ -236,12 +236,13 @@ width: 200px;
     font-size: 11px;
     font-family: sans-serif;
     font-weight: lighter;
+    margin: 3px;
+  
     }
     @media(min-width: 500px){
       .contact__text a {
       transition: color 500ms;
-      color: rgb(211, 18, 98);
-      
+        
     }
     }
     .contact__text:hover {
@@ -252,6 +253,9 @@ width: 200px;
         font-size: 15px;
         margin:3px;
     }
+    .contact__text:hover {
+      color: rgb(50, 142, 196);
+     }
     }
     .table{
       font-style: normal;
