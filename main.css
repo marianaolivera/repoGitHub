@@ -198,7 +198,7 @@ padding-bottom:8px;
 }
 
 .gallery__img{
-height: 50px;
+height: 100px;
 width: 200px;
 }
 @media(min-width: 500px){
@@ -213,9 +213,10 @@ width: 200px;
 }
 @media(min-width: 500px){
   .carousel-item{
-    height: 1000px;
-    width: 1000px;
+    height: 800px;
+    width: 800px;
     padding-top: 50px;
+    padding-bottom: 0%;
     max-width: 1024px;
     margin-left: 200px;
     margin-right: 200px;
@@ -223,7 +224,7 @@ width: 200px;
    vertical-align:middle 0 1410 41 00044410 410;
   }
 }
-  
+
 @media(min-width: 500px) {
   iframe {
     width: 560px;
