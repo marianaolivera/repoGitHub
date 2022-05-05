@@ -213,8 +213,8 @@ width: 200px;
 }
 @media(min-width: 500px){
   .carousel-item{
-    height: 800px;
-    width: 800px;
+    height: 700px;
+    width: 700px;
     padding-top: 50px;
     padding-bottom: 0%;
     max-width: 1024px;
