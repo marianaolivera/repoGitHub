@@ -250,6 +250,7 @@ width: 200px;
     @media(min-width:500px) {
       .contact__text{
         font-size: 15px;
+        margin:3px;
     }
     }
     .table{
