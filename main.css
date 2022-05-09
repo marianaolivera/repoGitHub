@@ -1,10 +1,12 @@
 #navegador ul{
   list-style-type: none;
   text-align: center;  
+  cursor:alias;
 }
 #navegador li{
  text-align: left;
  margin: 20px 10px 0px 0px;
+ cursor: pointer;
 }
 #navegador li a {
   padding: 4px 8px 4px 8px;
@@ -13,6 +15,7 @@
   border-radius: 50px;
   border: 3px solid rgb(178, 216, 211);
   text-decoration: none;
+  cursor:url(myBall.cur),auto;
 }
 #navegador :hover{
   -webkit-transform:scale(1.2);transform:scale(1.2);
@@ -281,4 +284,3 @@ width: 200px;
         padding-left: 400px;
       }
     }
-      
